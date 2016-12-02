@@ -11,15 +11,13 @@ $ composer require faustbrian/laravel-timezones
 And then include the service provider within `app/config/app.php`.
 
 ``` php
-'providers' => [
-    BrianFaust\Timezones\ServiceProvider::class
-];
+BrianFaust\Timezones\TimezonesServiceProvider::class
 ```
 
 To get started, you'll need to publish the vendor assets and migrate the timezones table:
 
 ```bash
-php artisan vendor:publish --provider="BrianFaust\Timezones\ServiceProvider" && php artisan migrate
+php artisan vendor:publish --provider="BrianFaust\Timezones\TimezonesServiceProvider" && php artisan migrate
 ```
 
 Now you can seed the timezones into the database like this.
@@ -31,8 +29,7 @@ php artisan timezones:seed
 ## Usage
 
 ``` php
-$skeleton = new BrianFaust\Skeleton();
-echo $skeleton->echoPhrase('Hello, BrianFaust!');
+...
 ```
 
 ## Security
