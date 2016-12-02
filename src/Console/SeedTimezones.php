@@ -11,8 +11,8 @@
 
 namespace BrianFaust\Timezones\Console;
 
-use DB;
 use BrianFaust\Timezones\Timezone;
+use DB;
 use Illuminate\Console\Command;
 
 class SeedTimezones extends Command

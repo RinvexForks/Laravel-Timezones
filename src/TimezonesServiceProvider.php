@@ -11,8 +11,8 @@
 
 namespace BrianFaust\Timezones;
 
-use BrianFaust\Timezones\Console\SeedTimezones;
 use BrianFaust\ServiceProvider\ServiceProvider;
+use BrianFaust\Timezones\Console\SeedTimezones;
 
 class TimezonesServiceProvider extends ServiceProvider
 {
