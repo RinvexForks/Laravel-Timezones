@@ -12,7 +12,7 @@
 namespace BrianFaust\Timezones\Console;
 
 use DB;
-use BrianFaust\Timezones\Models\Timezone;
+use BrianFaust\Timezones\Timezone;
 use Illuminate\Console\Command;
 
 class SeedTimezones extends Command

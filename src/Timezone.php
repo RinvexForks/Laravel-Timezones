@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\Timezones\Models;
+namespace BrianFaust\Timezones;
 
 use Illuminate\Database\Eloquent\Model;
 
