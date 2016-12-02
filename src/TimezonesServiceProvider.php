@@ -11,10 +11,10 @@
 
 namespace BrianFaust\Timezones;
 
-use BrianFaust\ServiceProvider\ServiceProvider as BaseProvider;
 use BrianFaust\Timezones\Console\SeedTimezones;
+use BrianFaust\ServiceProvider\ServiceProvider;
 
-class ServiceProvider extends BaseProvider
+class TimezonesServiceProvider extends ServiceProvider
 {
     public function boot()
     {
